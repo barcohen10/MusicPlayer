@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\style.css" />
     <Content Include="index.html" />
     <Content Include="js\mainScript.js" />
     <Content Include="js\Song.js" />

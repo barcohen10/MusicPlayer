@@ -2,8 +2,31 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Music Player</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/Song.js"></script>
+    <script src="js/mainScript.js"></script>
 </head>
 <body>
-
+    <div class="container">
+        <div class="column center">
+            <h1>Music Player</h1>
+            <h6>By Bar Cohen</h6>
+        </div>
+        <div class="column add-bottom">
+            <div id="mainwrap">
+                <div id="audiowrap">
+                    <div id="tracks">
+                        <a id="btnPrev">&laquo;</a>
+                        <a id="btnNext">&raquo;</a>
+                    </div>
+                </div>
+                <div id="plwrap">
+                    <ul id="plList">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
